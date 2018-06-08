@@ -1,0 +1,17 @@
+<% include top %>
+<form class="form1" style="padding:5px;border-radius: 5px;border: white solid" method='post' action='/article'>
+    TITLE <BR>
+    <input type='text' name='title' placeholder='Enter Title..' style=" border-radius: 4px;"/>
+    <br><BR><BR>
+    POST-DESCRIPTION <BR> 
+    <textarea name='body' placeholder='Enter description..'  style=" border-radius: 4px;"></textarea>
+    <br><BR><BR>
+    AUTHOR_NAME <BR>
+    <input name='author' placeholder='Enter author_name..' type='text'  style=" border-radius: 4px;"/>
+    <br><BR><BR>
+    <div style="text-align:center;">
+   <button type="submit" class="btn btn-primary mb-2">POST</button>
+    </div>
+    </form>
+
+<% include bottom %>

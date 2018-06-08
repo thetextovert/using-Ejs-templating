@@ -1,0 +1,24 @@
+{
+  "name": "my_blog_using_template",
+  "version": "1.0.0",
+  "description": "building MY_blog app using templating",
+  "main": "server.js",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "body-parser":"*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MY_BLOG_APP"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "ishani aggarwal",
+  "license": "ISC"
+}

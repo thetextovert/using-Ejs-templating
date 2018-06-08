@@ -1,0 +1,18 @@
+<% include top %>
+    <% blog_posts.forEach(function(post){%>
+      <div style="text-align:'centre';font-style:oblique;width:100%">  
+        <h2 style="text-decoration: underline;">
+          <strong>  <%= post.title %></strong>
+        </h2>
+        <h4>
+            <%= post.body %>
+        </h4>
+        By
+        <span>
+            <%= post.author %>
+        </span>
+        </div>
+
+        <% }); %>
+           <br><br><br>
+            <% include bottom %>
